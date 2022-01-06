@@ -1,3 +1,4 @@
+package HausaufgabeEinlesen;
 import java.util.Scanner;
 public class HausaufgabeEinlesen {
 
