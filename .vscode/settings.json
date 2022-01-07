@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Johannes\\Downloads\\microsoft-jdk-16.0.2.7.1-windows-x64\\jdk-16.0.2+7\\lib\\jrt-fs.jar"
+    ]
+}
