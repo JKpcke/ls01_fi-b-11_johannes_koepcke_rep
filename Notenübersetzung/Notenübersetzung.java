@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Noten�bersetzung {
+public class Notenübersetzung {
 
 	public static void main(String[] args) {
 		int note;
@@ -29,5 +29,7 @@ public class Noten�bersetzung {
 		}
 		newScanner.close();
 	}
+
+}
 
 
