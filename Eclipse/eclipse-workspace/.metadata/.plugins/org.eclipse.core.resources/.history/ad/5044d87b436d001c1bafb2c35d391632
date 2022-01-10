@@ -1,0 +1,27 @@
+import java.util.Scanner;
+import java.lang.Math;
+public class Funktionslöser {
+	public static final double euler = 2.718;
+	public static void main(String[] args) {
+		double eingabe;
+		double exp = 0;
+		double qua = 0;
+		double lin = 0;
+		
+		Scanner myScanner = new Scanner(System.in);
+		
+		if(eingabe <= 0) {
+			exp = Math.pow(euler, eingabe);
+			System.out.println("Der Funktionswert ist " + exp + " und befindet sich im exponentienllen Bereich.");
+		}else if(eingabe > 0 && eingabe <= 3) {
+			qua = Math.pow(eingabe, 2.0);
+			qua = qua + 1;
+			System.out.println("Der Funktionswert ist " + qua + " und befindet sich im quadatischen Bereich.");
+		}else if(eingabe > 3) {
+			lin = 2 * eingabe + 4;
+			System.out.println("Der Funktionswert ist " + lin + " und befindet sich im linearen Bereich.");
+		}
+		myScanner.close();
+	}
+
+}

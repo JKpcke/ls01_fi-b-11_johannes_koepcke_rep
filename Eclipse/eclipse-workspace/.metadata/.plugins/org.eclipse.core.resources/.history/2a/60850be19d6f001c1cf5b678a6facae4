@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Zinseszins {
+
+	public static void main(String[] args) {
+		int zeitraum = 0;
+		double kapital = -1.0;
+		double zinssatz = -1.0;
+		int zeit = -1;
+		
+		Scanner zins = new Scanner(System.in);
+		System.out.println("Bitte geben Sie die Laufzeit ein.");
+		zeitraum = zins.nextInt();
+		System.out.println("Bitte geben Sie die Höhe des Kapitals ein.");
+		kapital = zins.nextDouble();
+		System.out.println("Bitte geben Sie den Zinssatz ein.");
+		zinssatz = zins.nextDouble();
+		
+		do {
+			kapital = kapital * zinssatz;
+			System.out.println("Das Kapital in Monat " + zeit + " beträgt " + kapital + " Euro.");
+			zeit++;
+		} while(zeit <=zeitraum);
+		
+		zins.close();
+	}
+
+}
