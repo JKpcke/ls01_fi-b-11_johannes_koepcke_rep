@@ -6,8 +6,8 @@ public class HausaufgabeEinlesen {
 		Scanner myScanner = new Scanner(System.in);
 		
 		double zahlDouble;
-		long zahlLong;
-		byte zahlByte;
+		long zahlLong = 0;
+		byte zahlByte = 0;
 		short zahlShort;
 		boolean wahrheitswert;
 		char buchstabe;

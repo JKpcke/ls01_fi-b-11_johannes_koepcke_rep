@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Notenübersetzung {
+public class NotenÃ¼bersetzung {
 
 	public static void main(String[] args) {
 		int note;
@@ -24,7 +24,7 @@ public class Notenübersetzung {
 			System.out.println("mangelhaft");
 			break;
 		case 6:
-			System.out.println("ungenügend");
+			System.out.println("ungenÃ¼gend");
 			break;
 		default:
 			System.out.println("Bitte geben Sie eine Zahl ");

@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+
 
 public class Variablen {
 
@@ -44,7 +44,7 @@ public class Variablen {
 		
 		astro = 30000000;
 		
-		System.out.println("Die Lichtgeschwindigkeit beträgt "+astro+"m/s.");
+		System.out.println("Die Lichtgeschwindigkeit betrï¿½gt "+astro+"m/s.");
 		/*
 		 * Sieben Personen gruenden einen Verein. Fuer eine Vereinsverwaltung
 		 * soll die Anzahl der Mitgliedererfasst werden.
@@ -52,7 +52,7 @@ public class Variablen {
 		 * sinnvoll.
 		 */
 		
-		byte member;
+		//byte member;
 		
 	}
 

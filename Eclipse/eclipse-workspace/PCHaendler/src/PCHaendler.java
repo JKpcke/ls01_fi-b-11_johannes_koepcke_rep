@@ -6,7 +6,7 @@ public class PCHaendler {
 		Scanner myScanner = new Scanner(System.in);
 
 		// Benutzereingaben lesen
-		System.out.println("was möchten Sie bestellen?");
+		System.out.println("was mï¿½chten Sie bestellen?");
 		String artikel = myScanner.next();
 
 		System.out.println("Geben Sie die Anzahl ein:");
@@ -28,6 +28,7 @@ public class PCHaendler {
 		System.out.printf("\t\t Netto:  %-20s %6d %10.2f %n", artikel, anzahl, nettogesamtpreis);
 		System.out.printf("\t\t Brutto: %-20s %6d %10.2f (%.1f%s)%n", artikel, anzahl, bruttogesamtpreis, mwst, "%");
 
+		myScanner.close();
 	}
 
 }
